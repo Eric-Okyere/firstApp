@@ -3,6 +3,7 @@ import React from 'react'
 import { AntDesign, Entypo, SimpleLineIcons } from "@expo/vector-icons";
 import { Center } from 'native-base';
 
+
 const CamButt = ({ onPress, title, icon, setImage }) => {
     return (
         <TouchableOpacity onPress={onPress} >
@@ -15,7 +16,6 @@ const CamButt = ({ onPress, title, icon, setImage }) => {
         </TouchableOpacity>
     )
 }
-
 export default CamButt
 
 const styles = StyleSheet.create({})

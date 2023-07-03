@@ -9,8 +9,8 @@ import { AntDesign } from '@expo/vector-icons';
 
 var {width} = Dimensions.get("window");
 
-const ListProducts = (props) => {
 
+const ListProducts = (props) => {
   const [modalVisible, setModalVisible] = useState(false)
 
 
